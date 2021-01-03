@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F75E40B6-5D9C-4A40-A576-4F6FEF2E0FD5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5344CBA6-85ED-48E6-86ED-5AAA76953F6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/Services/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getAllJobs(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5344CBA6-85ED-48E6-86ED-5AAA76953F6C - 23a407a3e679565d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "amistee_app.WebService.getAllJobs(completion: (amistee_app.JobList) -&gt; ()) -&gt; ()"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "689">
+               </Location>
+               <Location
+                  uuid = "5344CBA6-85ED-48E6-86ED-5AAA76953F6C - 1c767198ea57da3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in amistee_app.WebService.getAllJobs(completion: (amistee_app.JobList) -&gt; ()) -&gt; ()"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "239">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B58F698D-5D62-4D85-BFB0-6D7917A111A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/ViewModels/TicketListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchJobs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B58F698D-5D62-4D85-BFB0-6D7917A111A2 - 22fe2d41816165c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "amistee_app.TicketListViewModel.(fetchJobs in _C632706399AE471F4CB2D3E447C8698B)() -&gt; ()"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/ViewModels/TicketListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "B58F698D-5D62-4D85-BFB0-6D7917A111A2 - d0c50f5fe5ed08ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (amistee_app.JobList) -&gt; () in amistee_app.TicketListViewModel.(fetchJobs in _C632706399AE471F4CB2D3E447C8698B)() -&gt; ()"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/ViewModels/TicketListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "380957CE-EE1C-4EFE-A031-4F0D575B7593"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/ViewModels/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "login()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DFB1761-CC99-412B-AA12-E67D4B342DAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/Services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "login(mobile:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "540F9BF2-DFF7-4154-8CD7-0D44A78D77CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/Services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "login(mobile:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "540F9BF2-DFF7-4154-8CD7-0D44A78D77CD - 8a1b5e587b102353"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "amistee_app.AuthService.login(mobile: Swift.String, password: Swift.String) -&gt; Combine.Future&lt;Swift.Optional&lt;amistee_app.User&gt;, Swift.Never&gt;"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/Services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "710">
+               </Location>
+               <Location
+                  uuid = "540F9BF2-DFF7-4154-8CD7-0D44A78D77CD - 829f5927257f5dc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Optional&lt;amistee_app.User&gt;, Swift.Never&gt;) -&gt; ()) -&gt; () in amistee_app.AuthService.login(mobile: Swift.String, password: Swift.String) -&gt; Combine.Future&lt;Swift.Optional&lt;amistee_app.User&gt;, Swift.Never&gt;"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/Services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "285">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B17A0AA-6626-4A1E-ACF0-A0D4D06AF763"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/Services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "login(mobile:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C650FBAD-87CF-49C5-8738-486F7FCFDDE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/ViewModels/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "resultMapper(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E69CB13-0272-4AB9-AB01-952E8C97668A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/ViewModels/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "resultMapper(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23A35A2A-FB62-4881-ABA6-F17D309EAC40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/ViewModels/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "login()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23A35A2A-FB62-4881-ABA6-F17D309EAC40 - d6ae679e8d72da07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "amistee_app.SignInViewModel.login() -&gt; ()"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/ViewModels/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1190">
+               </Location>
+               <Location
+                  uuid = "23A35A2A-FB62-4881-ABA6-F17D309EAC40 - 98ed95baa021be0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (Swift.Optional&lt;amistee_app.User&gt;) -&gt; amistee_app.StatusViewModel in implicit closure #1 (amistee_app.SignInViewModel) -&gt; (Swift.Optional&lt;amistee_app.User&gt;) -&gt; amistee_app.StatusViewModel in amistee_app.SignInViewModel.login() -&gt; ()"
+                  moduleName = "amistee-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/workspace/mobileApps/Amistee_IOS/amistee-app/amistee-app/ViewModels/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AA3E866-8C0C-49A0-BB9E-154478F58E8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "amistee-app/Services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "login(mobile:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

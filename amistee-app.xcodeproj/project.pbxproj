@@ -3,16 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		186DE9DF25967DBD007204DD /* amistee_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE9DE25967DBD007204DD /* amistee_appApp.swift */; };
-		186DE9E125967DBE007204DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE9E025967DBE007204DD /* ContentView.swift */; };
 		186DE9E325967DC0007204DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DE9E225967DC0007204DD /* Assets.xcassets */; };
 		186DE9E625967DC0007204DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DE9E525967DC0007204DD /* Preview Assets.xcassets */; };
 		186DE9F125967DC0007204DD /* amistee_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE9F025967DC0007204DD /* amistee_appTests.swift */; };
 		186DE9FC25967DC0007204DD /* amistee_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE9FB25967DC0007204DD /* amistee_appUITests.swift */; };
+		186DEA1C25967E47007204DD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA1925967E47007204DD /* CustomTextField.swift */; };
+		186DEA1D25967E47007204DD /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA1A25967E47007204DD /* CustomModifier.swift */; };
+		186DEA1E25967E47007204DD /* RadioButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA1B25967E47007204DD /* RadioButtonField.swift */; };
+		186DEA2525967E54007204DD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA2225967E54007204DD /* UIColor.swift */; };
+		186DEA2625967E54007204DD /* UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA2325967E54007204DD /* UIConfiguration.swift */; };
+		186DEA2725967E54007204DD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA2425967E54007204DD /* AppState.swift */; };
+		186DEA2D25967E63007204DD /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA2B25967E63007204DD /* Ticket.swift */; };
+		186DEA2E25967E63007204DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA2C25967E63007204DD /* User.swift */; };
+		186DEA3525967E6F007204DD /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3225967E6F007204DD /* WebService.swift */; };
+		186DEA3625967E6F007204DD /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3325967E6F007204DD /* AuthAPI.swift */; };
+		186DEA3725967E6F007204DD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3425967E6F007204DD /* AuthService.swift */; };
+		186DEA4625967E80007204DD /* JobDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3B25967E80007204DD /* JobDetailsView.swift */; };
+		186DEA4725967E80007204DD /* JobRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3C25967E80007204DD /* JobRow.swift */; };
+		186DEA4825967E80007204DD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3D25967E80007204DD /* WelcomeView.swift */; };
+		186DEA4925967E80007204DD /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3E25967E80007204DD /* JobsView.swift */; };
+		186DEA4A25967E80007204DD /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3F25967E80007204DD /* ScheduleView.swift */; };
+		186DEA4B25967E80007204DD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4025967E80007204DD /* SplashView.swift */; };
+		186DEA4C25967E80007204DD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4125967E80007204DD /* SignUpView.swift */; };
+		186DEA4D25967E80007204DD /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4225967E80007204DD /* DrawerView.swift */; };
+		186DEA4E25967E80007204DD /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4325967E80007204DD /* JobListView.swift */; };
+		186DEA4F25967E80007204DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4425967E80007204DD /* HomeView.swift */; };
+		186DEA5025967E80007204DD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4525967E80007204DD /* SignInView.swift */; };
+		186DEA5A25967E92007204DD /* TicketListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5425967E92007204DD /* TicketListViewModel.swift */; };
+		186DEA5B25967E92007204DD /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5525967E92007204DD /* StatusViewModel.swift */; };
+		186DEA5C25967E92007204DD /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5625967E92007204DD /* SignInViewModel.swift */; };
+		186DEA5D25967E92007204DD /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5725967E92007204DD /* ScheduleViewModel.swift */; };
+		186DEA5E25967E92007204DD /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5825967E92007204DD /* SignUpViewModel.swift */; };
+		186DEA5F25967E92007204DD /* JobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5925967E92007204DD /* JobList.swift */; };
+		186DEA6D25968BEE007204DD /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA6C25968BEE007204DD /* Loader.swift */; };
+		18ADA5C025991865004966E4 /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA5BF25991865004966E4 /* AuthenticationState.swift */; };
+		18ADA5C7259A4BC9004966E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 18ADA5C6259A4BC9004966E4 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +65,6 @@
 /* Begin PBXFileReference section */
 		186DE9DB25967DBD007204DD /* amistee-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amistee-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DE9DE25967DBD007204DD /* amistee_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amistee_appApp.swift; sourceTree = "<group>"; };
-		186DE9E025967DBE007204DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		186DE9E225967DC0007204DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186DE9E525967DC0007204DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		186DE9E725967DC0007204DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +74,36 @@
 		186DE9F725967DC0007204DD /* amistee-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amistee-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DE9FB25967DC0007204DD /* amistee_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amistee_appUITests.swift; sourceTree = "<group>"; };
 		186DE9FD25967DC0007204DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186DEA1925967E47007204DD /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		186DEA1A25967E47007204DD /* CustomModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		186DEA1B25967E47007204DD /* RadioButtonField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonField.swift; sourceTree = "<group>"; };
+		186DEA2225967E54007204DD /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		186DEA2325967E54007204DD /* UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConfiguration.swift; sourceTree = "<group>"; };
+		186DEA2425967E54007204DD /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		186DEA2B25967E63007204DD /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		186DEA2C25967E63007204DD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		186DEA3225967E6F007204DD /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		186DEA3325967E6F007204DD /* AuthAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		186DEA3425967E6F007204DD /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		186DEA3B25967E80007204DD /* JobDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailsView.swift; sourceTree = "<group>"; };
+		186DEA3C25967E80007204DD /* JobRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobRow.swift; sourceTree = "<group>"; };
+		186DEA3D25967E80007204DD /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		186DEA3E25967E80007204DD /* JobsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
+		186DEA3F25967E80007204DD /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		186DEA4025967E80007204DD /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		186DEA4125967E80007204DD /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		186DEA4225967E80007204DD /* DrawerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		186DEA4325967E80007204DD /* JobListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
+		186DEA4425967E80007204DD /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		186DEA4525967E80007204DD /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		186DEA5425967E92007204DD /* TicketListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketListViewModel.swift; sourceTree = "<group>"; };
+		186DEA5525967E92007204DD /* StatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		186DEA5625967E92007204DD /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		186DEA5725967E92007204DD /* ScheduleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		186DEA5825967E92007204DD /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		186DEA5925967E92007204DD /* JobList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobList.swift; sourceTree = "<group>"; };
+		186DEA6C25968BEE007204DD /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		18ADA5BF25991865004966E4 /* AuthenticationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ADA5C7259A4BC9004966E4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +155,13 @@
 		186DE9DD25967DBD007204DD /* amistee-app */ = {
 			isa = PBXGroup;
 			children = (
+				186DEA1825967E29007204DD /* Configurations */,
+				186DEA1725967E22007204DD /* Components */,
+				186DEA1325967DE9007204DD /* Services */,
+				186DEA1225967DE8007204DD /* Views */,
+				186DEA1125967DE5007204DD /* ViewModels */,
+				186DEA0F25967DDB007204DD /* Models */,
 				186DE9DE25967DBD007204DD /* amistee_appApp.swift */,
-				186DE9E025967DBE007204DD /* ContentView.swift */,
 				186DE9E225967DC0007204DD /* Assets.xcassets */,
 				186DE9E725967DC0007204DD /* Info.plist */,
 				186DE9E425967DC0007204DD /* Preview Content */,
@@ -130,6 +195,78 @@
 			path = "amistee-appUITests";
 			sourceTree = "<group>";
 		};
+		186DEA0F25967DDB007204DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				186DEA2B25967E63007204DD /* Ticket.swift */,
+				186DEA2C25967E63007204DD /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		186DEA1125967DE5007204DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				186DEA5725967E92007204DD /* ScheduleViewModel.swift */,
+				186DEA5625967E92007204DD /* SignInViewModel.swift */,
+				186DEA5825967E92007204DD /* SignUpViewModel.swift */,
+				186DEA5525967E92007204DD /* StatusViewModel.swift */,
+				186DEA5925967E92007204DD /* JobList.swift */,
+				186DEA5425967E92007204DD /* TicketListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		186DEA1225967DE8007204DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				186DEA4225967E80007204DD /* DrawerView.swift */,
+				186DEA4425967E80007204DD /* HomeView.swift */,
+				186DEA3B25967E80007204DD /* JobDetailsView.swift */,
+				186DEA4325967E80007204DD /* JobListView.swift */,
+				186DEA3C25967E80007204DD /* JobRow.swift */,
+				186DEA3E25967E80007204DD /* JobsView.swift */,
+				186DEA3F25967E80007204DD /* ScheduleView.swift */,
+				186DEA4525967E80007204DD /* SignInView.swift */,
+				186DEA4125967E80007204DD /* SignUpView.swift */,
+				186DEA4025967E80007204DD /* SplashView.swift */,
+				186DEA3D25967E80007204DD /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		186DEA1325967DE9007204DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				186DEA3325967E6F007204DD /* AuthAPI.swift */,
+				186DEA3425967E6F007204DD /* AuthService.swift */,
+				186DEA3225967E6F007204DD /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		186DEA1725967E22007204DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				186DEA1A25967E47007204DD /* CustomModifier.swift */,
+				186DEA1925967E47007204DD /* CustomTextField.swift */,
+				186DEA1B25967E47007204DD /* RadioButtonField.swift */,
+				186DEA6C25968BEE007204DD /* Loader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		186DEA1825967E29007204DD /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				186DEA2425967E54007204DD /* AppState.swift */,
+				186DEA2225967E54007204DD /* UIColor.swift */,
+				186DEA2325967E54007204DD /* UIConfiguration.swift */,
+				18ADA5BF25991865004966E4 /* AuthenticationState.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +283,9 @@
 			dependencies = (
 			);
 			name = "amistee-app";
+			packageProductDependencies = (
+				18ADA5C6259A4BC9004966E4 /* Alamofire */,
+			);
 			productName = "amistee-app";
 			productReference = 186DE9DB25967DBD007204DD /* amistee-app.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +357,9 @@
 				Base,
 			);
 			mainGroup = 186DE9D225967DBD007204DD;
+			packageReferences = (
+				18ADA5C5259A4BC9004966E4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 186DE9DC25967DBD007204DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +402,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186DE9E125967DBE007204DD /* ContentView.swift in Sources */,
+				186DEA5A25967E92007204DD /* TicketListViewModel.swift in Sources */,
+				186DEA1E25967E47007204DD /* RadioButtonField.swift in Sources */,
+				186DEA1C25967E47007204DD /* CustomTextField.swift in Sources */,
+				18ADA5C025991865004966E4 /* AuthenticationState.swift in Sources */,
+				186DEA4925967E80007204DD /* JobsView.swift in Sources */,
+				186DEA5D25967E92007204DD /* ScheduleViewModel.swift in Sources */,
+				186DEA5C25967E92007204DD /* SignInViewModel.swift in Sources */,
+				186DEA5E25967E92007204DD /* SignUpViewModel.swift in Sources */,
+				186DEA4D25967E80007204DD /* DrawerView.swift in Sources */,
+				186DEA3625967E6F007204DD /* AuthAPI.swift in Sources */,
+				186DEA4F25967E80007204DD /* HomeView.swift in Sources */,
+				186DEA3725967E6F007204DD /* AuthService.swift in Sources */,
+				186DEA4C25967E80007204DD /* SignUpView.swift in Sources */,
+				186DEA2725967E54007204DD /* AppState.swift in Sources */,
+				186DEA4E25967E80007204DD /* JobListView.swift in Sources */,
+				186DEA6D25968BEE007204DD /* Loader.swift in Sources */,
+				186DEA2D25967E63007204DD /* Ticket.swift in Sources */,
+				186DEA4A25967E80007204DD /* ScheduleView.swift in Sources */,
 				186DE9DF25967DBD007204DD /* amistee_appApp.swift in Sources */,
+				186DEA2E25967E63007204DD /* User.swift in Sources */,
+				186DEA5F25967E92007204DD /* JobList.swift in Sources */,
+				186DEA4725967E80007204DD /* JobRow.swift in Sources */,
+				186DEA5025967E80007204DD /* SignInView.swift in Sources */,
+				186DEA4625967E80007204DD /* JobDetailsView.swift in Sources */,
+				186DEA4825967E80007204DD /* WelcomeView.swift in Sources */,
+				186DEA1D25967E47007204DD /* CustomModifier.swift in Sources */,
+				186DEA2625967E54007204DD /* UIConfiguration.swift in Sources */,
+				186DEA5B25967E92007204DD /* StatusViewModel.swift in Sources */,
+				186DEA3525967E6F007204DD /* WebService.swift in Sources */,
+				186DEA2525967E54007204DD /* UIColor.swift in Sources */,
+				186DEA4B25967E80007204DD /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +746,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18ADA5C5259A4BC9004966E4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18ADA5C6259A4BC9004966E4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18ADA5C5259A4BC9004966E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 186DE9D325967DBD007204DD /* Project object */;
 }

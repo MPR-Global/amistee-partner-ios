@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct amistee_appApp: App {
+//    let authState = AuthenticationState.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView(state: AppState())
+//                .environmentObject(authState)
         }
     }
 }
