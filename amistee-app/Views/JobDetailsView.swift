@@ -16,28 +16,36 @@ struct JobDetailsView: View {
                 HStack{
                     Text("Service Location:- ")
                         .font(.headline)
+                        .foregroundColor(.white)
                     
                     Text(job.summary ?? "")
                         .font(.subheadline)
+                        .foregroundColor(.white)
                 }
                 HStack{
                     Text("Status:- ")
                         .font(.headline)
+                        .foregroundColor(.white)
                     
-                    Text(job.ticketStatus)
+                    Text(Utility.getJobStatus(status: job.ticketStatus))
                         .font(.subheadline)
+                        .foregroundColor(.white)
                     
                 }
                 HStack{
                     Text("Service Date:- ")
                         .font(.headline)
+                        .foregroundColor(.white)
                     
                     Text(job.creationDate ?? "")
                         .font(.subheadline)
+                        .foregroundColor(.white)
                 }
                 Spacer()
             }
-            .navigationBarTitle(Text("Job# \(job.ticketId)"))
+            .navigationBarColor(.clear)
+            .navigationBarTitle(Text("Job# \(String(job.ticketId))")
+                                    .foregroundColor(.white), displayMode: .inline)
         }
     }
 }

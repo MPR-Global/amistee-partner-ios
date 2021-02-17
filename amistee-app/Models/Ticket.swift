@@ -22,3 +22,11 @@ struct Ticket: Decodable, Identifiable, Hashable {
     var creationDate: String?
     var id: Int?
 }
+
+
+enum TicketStatus {
+    case home
+    case schedule
+    case estimate
+    case contact
+}

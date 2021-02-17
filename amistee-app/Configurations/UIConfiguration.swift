@@ -17,6 +17,7 @@ class UIConfiguration {
     // Color
     static let backgroundColor = UIColor(hexString: "#0054A4")
     static let tintColor = UIColor(hexString: "#9FCF67")
+    static let hoverColor = UIColor(hexString: "#e1ecf4")
     static let subtitleColor = UIColor(hexString: "#464646")
     static let buttonColor = UIColor(hexString: "#414665")
     static let buttonBorderColor = UIColor(hexString: "#B0B3C6")

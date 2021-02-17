@@ -11,16 +11,19 @@ struct JobRow: View {
     var job: Ticket
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Job#: \(job.ticketId)")
-                .font(.largeTitle)
+            Text("Job#: \(String(job.ticketId))")
+                .font(.headline)
+                .foregroundColor(.white)
             
             Text(job.summary ?? "")
                 .font(.headline)
+                .foregroundColor(.white)
             
-            Text("Status:- \(job.ticketStatus)")
+            Text("Status:- \(Utility.getJobStatus(status: job.ticketStatus))")
                 .lineLimit(2)
                 .lineSpacing(2)
                 .font(.headline)
+                .foregroundColor(.white)
                 .frame(height: 20)
             
             Text(job.creationDate ?? "")

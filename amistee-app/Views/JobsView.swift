@@ -12,9 +12,17 @@ struct JobsView: View {
     @ObservedObject var model = TicketListViewModel()
     
     var body: some View {
-        ZStack{
-            if model.loading {
+        NavigationView{
+            ZStack{
+                Color("primary").edgesIgnoringSafeArea(.all)
                 
+                if(!model.error.isEmpty){
+                    Text(model.error)
+                        .foregroundColor(.white)
+                        .font(.subheadline)
+                        
+                }
+            if model.loading {
                 GeometryReader { geometry in
                     ZStack(alignment: .center) {
                         Loader()
@@ -43,6 +51,9 @@ struct JobsView: View {
                     .listRowBackground(Color("primary"))
                 }
             }
+            }
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .navigationBarHidden(true)
         }
         .padding(.horizontal)
     }

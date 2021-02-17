@@ -13,6 +13,7 @@ class TicketListViewModel: ObservableObject {
     
     @Published var jobs = JobList(results: [])
     @Published var loading = false
+    @Published var error = ""
     init() {
         loading = true
         fetchJobs()
@@ -20,10 +21,16 @@ class TicketListViewModel: ObservableObject {
     
     
     private func fetchJobs() {
-        WebService().getAllJobs {
-
-            self.jobs = $0
-            self.loading = false
+        WebService().getAllJobs { result in
+            switch result {
+              case .succeed(let data):
+              self.jobs = data
+              self.loading = false
+              case .failed(let error):
+                self.loading = false
+                print("error getting job list \(error)")
+                self.error = "Something went wrong"
+              }
         }
     }
 }

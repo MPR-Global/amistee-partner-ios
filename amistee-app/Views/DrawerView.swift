@@ -53,8 +53,28 @@ struct DrawerView: View {
                 }
                 .padding(.top, 25)
                 
+//                Button(action: {
+//                    self.pageSelector = .schedule
+//                    //animating view
+//                    withAnimation{
+//                        self.isShow.toggle()
+//                    }
+//                }){
+//                    HStack(spacing: 25){
+//                        Image(systemName: "timer")
+//                            .foregroundColor(self.pageSelector == .schedule ? Color("button") : .white)
+//
+//                        Text("Schedule Job")
+//                            .foregroundColor(self.pageSelector == .schedule ? Color("button") : .white)
+//                    }
+//                    .padding(.vertical, 10)
+//                    .padding(.horizontal)
+//                    .background(self.pageSelector == .schedule ? Color("button").opacity(0.2) : Color.clear)
+//                    .cornerRadius(10)
+//                }
+                
                 Button(action: {
-                    self.pageSelector = .schedule
+                    self.pageSelector = .scheduleLockBox
                     //animating view
                     withAnimation{
                         self.isShow.toggle()
@@ -62,16 +82,36 @@ struct DrawerView: View {
                 }){
                     HStack(spacing: 25){
                         Image(systemName: "timer")
-                            .foregroundColor(self.pageSelector == .schedule ? Color("button") : .white)
+                            .foregroundColor(self.pageSelector == .scheduleLockBox ? Color("button") : .white)
                         
-                        Text("Schedule Job")
-                            .foregroundColor(self.pageSelector == .schedule ? Color("button") : .white)
+                        Text("Schedule Air Duct Cleaning")
+                            .foregroundColor(self.pageSelector == .scheduleLockBox ? Color("button") : .white)
                     }
                     .padding(.vertical, 10)
                     .padding(.horizontal)
-                    .background(self.pageSelector == .schedule ? Color("button").opacity(0.2) : Color.clear)
+                    .background(self.pageSelector == .scheduleLockBox ? Color("button").opacity(0.2) : Color.clear)
                     .cornerRadius(10)
                 }
+                
+//                Button(action: {
+//                    self.pageSelector = .scheduleCallOwner
+//                    //animating view
+//                    withAnimation{
+//                        self.isShow.toggle()
+//                    }
+//                }){
+//                    HStack(spacing: 25){
+//                        Image(systemName: "timer")
+//                            .foregroundColor(self.pageSelector == .scheduleCallOwner ? Color("button") : .white)
+//
+//                        Text("Schedule Call to Owner")
+//                            .foregroundColor(self.pageSelector == .scheduleCallOwner ? Color("button") : .white)
+//                    }
+//                    .padding(.vertical, 10)
+//                    .padding(.horizontal)
+//                    .background(self.pageSelector == .scheduleCallOwner ? Color("button").opacity(0.2) : Color.clear)
+//                    .cornerRadius(10)
+//                }
                 
                 Button(action: {
                     self.pageSelector = .estimate
@@ -84,7 +124,7 @@ struct DrawerView: View {
                         Image(systemName: "creditcard")
                             .foregroundColor(self.pageSelector == .estimate ? Color("button") : .white)
                         
-                        Text("Insulation Estimate")
+                        Text("Schedule Insulation Job")
                             .foregroundColor(self.pageSelector == .estimate ? Color("button") : .white)
                     }
                     .padding(.vertical, 10)

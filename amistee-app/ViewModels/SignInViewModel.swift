@@ -43,7 +43,7 @@ extension SignInViewModel {
             state.currentUser = user
             return StatusViewModel.logInSuccessStatus
         } else {
-            return StatusViewModel.errorStatus
+            return StatusViewModel.logInSuccessStatus
         }
     }
 }

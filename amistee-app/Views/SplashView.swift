@@ -23,7 +23,7 @@ struct SplashView: View {
                     }
                 }
                 .animation(.easeInOut)
-                .transition(.move(edge: .bottom))
+//                .transition(.move(edge: .bottom))
             } else {
                 ZStack {
                     Color("primary")

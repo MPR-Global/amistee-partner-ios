@@ -67,7 +67,7 @@ struct MyTextFieldStyle: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
             .padding(12)
-            .foregroundColor(Color.black)
+            .foregroundColor(Color.white)
             .background(
                 RoundedRectangle(cornerRadius: 6,
                                  style: .continuous)

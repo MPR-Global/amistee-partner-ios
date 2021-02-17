@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181760B225C9D5F300017528 /* Estimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181760B125C9D5F300017528 /* Estimate.swift */; };
+		1819A84525D04CED00D9B54F /* CheckBoxField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819A84425D04CED00D9B54F /* CheckBoxField.swift */; };
+		182933D625D81DCE00F59904 /* EstimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182933D525D81DCE00F59904 /* EstimateView.swift */; };
+		182933DB25D81EE700F59904 /* EstimateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182933DA25D81EE700F59904 /* EstimateViewModel.swift */; };
+		1836B46925B4E303005B36FD /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836B46825B4E303005B36FD /* NavigationBarModifier.swift */; };
 		186DE9DF25967DBD007204DD /* amistee_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE9DE25967DBD007204DD /* amistee_appApp.swift */; };
 		186DE9E325967DC0007204DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DE9E225967DC0007204DD /* Assets.xcassets */; };
 		186DE9E625967DC0007204DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DE9E525967DC0007204DD /* Preview Assets.xcassets */; };
@@ -27,7 +32,6 @@
 		186DEA4725967E80007204DD /* JobRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3C25967E80007204DD /* JobRow.swift */; };
 		186DEA4825967E80007204DD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3D25967E80007204DD /* WelcomeView.swift */; };
 		186DEA4925967E80007204DD /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3E25967E80007204DD /* JobsView.swift */; };
-		186DEA4A25967E80007204DD /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA3F25967E80007204DD /* ScheduleView.swift */; };
 		186DEA4B25967E80007204DD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4025967E80007204DD /* SplashView.swift */; };
 		186DEA4C25967E80007204DD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4125967E80007204DD /* SignUpView.swift */; };
 		186DEA4D25967E80007204DD /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA4225967E80007204DD /* DrawerView.swift */; };
@@ -41,6 +45,8 @@
 		186DEA5E25967E92007204DD /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5825967E92007204DD /* SignUpViewModel.swift */; };
 		186DEA5F25967E92007204DD /* JobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA5925967E92007204DD /* JobList.swift */; };
 		186DEA6D25968BEE007204DD /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DEA6C25968BEE007204DD /* Loader.swift */; };
+		187400F525A4D91200FE580E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187400F425A4D91200FE580E /* Utility.swift */; };
+		187400FD25A4DE7600FE580E /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187400FC25A4DE7600FE580E /* ScheduleView.swift */; };
 		18ADA5C025991865004966E4 /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA5BF25991865004966E4 /* AuthenticationState.swift */; };
 		18ADA5C7259A4BC9004966E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 18ADA5C6259A4BC9004966E4 /* Alamofire */; };
 /* End PBXBuildFile section */
@@ -63,6 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181760B125C9D5F300017528 /* Estimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estimate.swift; sourceTree = "<group>"; };
+		1819A84425D04CED00D9B54F /* CheckBoxField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxField.swift; sourceTree = "<group>"; };
+		182933D525D81DCE00F59904 /* EstimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateView.swift; sourceTree = "<group>"; };
+		182933DA25D81EE700F59904 /* EstimateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewModel.swift; sourceTree = "<group>"; };
+		1836B46825B4E303005B36FD /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		186DE9DB25967DBD007204DD /* amistee-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amistee-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DE9DE25967DBD007204DD /* amistee_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amistee_appApp.swift; sourceTree = "<group>"; };
 		186DE9E225967DC0007204DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,7 +100,6 @@
 		186DEA3C25967E80007204DD /* JobRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobRow.swift; sourceTree = "<group>"; };
 		186DEA3D25967E80007204DD /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		186DEA3E25967E80007204DD /* JobsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
-		186DEA3F25967E80007204DD /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		186DEA4025967E80007204DD /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		186DEA4125967E80007204DD /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		186DEA4225967E80007204DD /* DrawerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
@@ -103,6 +113,8 @@
 		186DEA5825967E92007204DD /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		186DEA5925967E92007204DD /* JobList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobList.swift; sourceTree = "<group>"; };
 		186DEA6C25968BEE007204DD /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		187400F425A4D91200FE580E /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		187400FC25A4DE7600FE580E /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		18ADA5BF25991865004966E4 /* AuthenticationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,6 +212,7 @@
 			children = (
 				186DEA2B25967E63007204DD /* Ticket.swift */,
 				186DEA2C25967E63007204DD /* User.swift */,
+				181760B125C9D5F300017528 /* Estimate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +226,7 @@
 				186DEA5525967E92007204DD /* StatusViewModel.swift */,
 				186DEA5925967E92007204DD /* JobList.swift */,
 				186DEA5425967E92007204DD /* TicketListViewModel.swift */,
+				182933DA25D81EE700F59904 /* EstimateViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,11 +240,12 @@
 				186DEA4325967E80007204DD /* JobListView.swift */,
 				186DEA3C25967E80007204DD /* JobRow.swift */,
 				186DEA3E25967E80007204DD /* JobsView.swift */,
-				186DEA3F25967E80007204DD /* ScheduleView.swift */,
+				187400FC25A4DE7600FE580E /* ScheduleView.swift */,
 				186DEA4525967E80007204DD /* SignInView.swift */,
 				186DEA4125967E80007204DD /* SignUpView.swift */,
 				186DEA4025967E80007204DD /* SplashView.swift */,
 				186DEA3D25967E80007204DD /* WelcomeView.swift */,
+				182933D525D81DCE00F59904 /* EstimateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,7 +266,9 @@
 				186DEA1A25967E47007204DD /* CustomModifier.swift */,
 				186DEA1925967E47007204DD /* CustomTextField.swift */,
 				186DEA1B25967E47007204DD /* RadioButtonField.swift */,
+				1819A84425D04CED00D9B54F /* CheckBoxField.swift */,
 				186DEA6C25968BEE007204DD /* Loader.swift */,
+				1836B46825B4E303005B36FD /* NavigationBarModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -263,6 +280,7 @@
 				186DEA2225967E54007204DD /* UIColor.swift */,
 				186DEA2325967E54007204DD /* UIConfiguration.swift */,
 				18ADA5BF25991865004966E4 /* AuthenticationState.swift */,
+				187400F425A4D91200FE580E /* Utility.swift */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -402,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1819A84525D04CED00D9B54F /* CheckBoxField.swift in Sources */,
 				186DEA5A25967E92007204DD /* TicketListViewModel.swift in Sources */,
 				186DEA1E25967E47007204DD /* RadioButtonField.swift in Sources */,
 				186DEA1C25967E47007204DD /* CustomTextField.swift in Sources */,
@@ -409,20 +428,25 @@
 				186DEA4925967E80007204DD /* JobsView.swift in Sources */,
 				186DEA5D25967E92007204DD /* ScheduleViewModel.swift in Sources */,
 				186DEA5C25967E92007204DD /* SignInViewModel.swift in Sources */,
+				182933D625D81DCE00F59904 /* EstimateView.swift in Sources */,
 				186DEA5E25967E92007204DD /* SignUpViewModel.swift in Sources */,
 				186DEA4D25967E80007204DD /* DrawerView.swift in Sources */,
+				187400F525A4D91200FE580E /* Utility.swift in Sources */,
 				186DEA3625967E6F007204DD /* AuthAPI.swift in Sources */,
 				186DEA4F25967E80007204DD /* HomeView.swift in Sources */,
 				186DEA3725967E6F007204DD /* AuthService.swift in Sources */,
 				186DEA4C25967E80007204DD /* SignUpView.swift in Sources */,
+				182933DB25D81EE700F59904 /* EstimateViewModel.swift in Sources */,
+				1836B46925B4E303005B36FD /* NavigationBarModifier.swift in Sources */,
 				186DEA2725967E54007204DD /* AppState.swift in Sources */,
 				186DEA4E25967E80007204DD /* JobListView.swift in Sources */,
 				186DEA6D25968BEE007204DD /* Loader.swift in Sources */,
 				186DEA2D25967E63007204DD /* Ticket.swift in Sources */,
-				186DEA4A25967E80007204DD /* ScheduleView.swift in Sources */,
 				186DE9DF25967DBD007204DD /* amistee_appApp.swift in Sources */,
 				186DEA2E25967E63007204DD /* User.swift in Sources */,
 				186DEA5F25967E92007204DD /* JobList.swift in Sources */,
+				187400FD25A4DE7600FE580E /* ScheduleView.swift in Sources */,
+				181760B225C9D5F300017528 /* Estimate.swift in Sources */,
 				186DEA4725967E80007204DD /* JobRow.swift in Sources */,
 				186DEA5025967E80007204DD /* SignInView.swift in Sources */,
 				186DEA4625967E80007204DD /* JobDetailsView.swift in Sources */,

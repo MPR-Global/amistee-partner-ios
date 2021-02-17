@@ -68,9 +68,9 @@ struct SignInView: View {
                     Alert(title: Text(status.title),
                           message: Text(status.message),
                           dismissButton: .default(Text("OK"), action: {
-                            if status.title == "Successful" {
+//                            if status.title == "Successful" {
                                 self.pushActive = true
-                            }
+//                            }
                           }))
                 }
             }

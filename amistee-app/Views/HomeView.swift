@@ -9,7 +9,9 @@ import SwiftUI
 
 enum PageSelector {
     case home
-    case schedule
+//    case schedule
+    case scheduleLockBox
+//    case scheduleCallOwner
     case estimate
     case contact
 }
@@ -20,7 +22,9 @@ struct HomeView: View {
     @State var pageSelector: PageSelector = .home
     
     var body: some View {
-        ZStack {
+//        NavigationView {
+            ZStack {
+                Color("primary").edgesIgnoringSafeArea(.all)
             //MARK:-  Menu
             DrawerView(isShow: self.$show, pageSelector: self.$pageSelector)
             
@@ -36,11 +40,11 @@ struct HomeView: View {
                        Image(systemName: "line.horizontal.3")
                         .resizable()
                         .frame(width: 22, height: 18)
-                        .foregroundColor(Color("button").opacity(0.4))
+                        .foregroundColor(.white)
                     }
                     Text(navTitle())
                         .font(.title)
-                        .foregroundColor(Color("button").opacity(0.6))
+                        .foregroundColor(.white)
                     
                     Spacer(minLength: 0)
                 }
@@ -57,13 +61,13 @@ struct HomeView: View {
             }
             .background(Color("primary"))
             .scaleEffect(self.show ? 0.9 : 1)
-            .offset(x: self.show ? UIScreen.main.bounds.width / 1.7 : 0)
+            .offset(x: self.show ? UIScreen.main.bounds.width / 1.4 : 0)
             .animation(.default)
         }
         .background(Color("menu"))
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        .navigationBarTitle("", displayMode: .inline)
-                    .navigationBarHidden(true)
+        .navigationBarHidden(true)
+//        }
     }
     
     
@@ -72,10 +76,10 @@ struct HomeView: View {
         switch pageSelector {
         case .home:
             return AnyView(JobsView())
-        case .schedule:
+        case .scheduleLockBox:
             return AnyView(ScheduleView(state: AppState()))
         case .estimate:
-            return AnyView(SignUpView(state: AppState()))
+            return AnyView(EstimateView(state: AppState()))
         case .contact:
             return AnyView(SignInView(state: AppState()))
         }
@@ -85,10 +89,14 @@ struct HomeView: View {
         switch pageSelector {
         case .home:
             return "Home"
-        case .schedule:
-            return "Schedule Job"
+//        case .schedule:
+//            return "Schedule Job"
+        case .scheduleLockBox:
+            return "Schedule Air Duct Cleaning"
+//        case .scheduleCallOwner:
+//            return "Schedule Call to Owner"
         case .estimate:
-            return "Insulation Estimate"
+            return "Schedule an Insulation Estimate"
         case .contact:
             return "Contact Us"
         }

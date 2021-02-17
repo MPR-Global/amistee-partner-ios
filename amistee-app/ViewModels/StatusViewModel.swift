@@ -22,7 +22,11 @@ class StatusViewModel: Identifiable, ObservableObject {
     }
     
     static var scheduleSuccessStatus: StatusViewModel {
-        return StatusViewModel(title: "Successful", message: "Service has been scheduled successfully")
+        return StatusViewModel(title: "Successful", message: "Service request has been received.")
+    }
+    
+    static var insulationSuccessStatus: StatusViewModel {
+        return StatusViewModel(title: "Successful", message: "Insulation estimation reqquest has been received.")
     }
     
     static var logInSuccessStatus: StatusViewModel {

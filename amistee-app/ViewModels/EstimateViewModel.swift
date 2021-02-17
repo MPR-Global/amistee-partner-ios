@@ -1,14 +1,14 @@
 //
-//  ScheduleViewModel.swift
-//  amistee_partner
+//  EstimateViewModel.swift
+//  amistee-app
 //
-//  Created by Apple on 20/12/20.
+//  Created by Apple on 13/02/21.
 //
 
 import Foundation
 import Combine
 
-class ScheduleViewModel: ObservableObject {
+class EstimateViewModel: ObservableObject {
     @Published var contractorName: String = "Baban Bandgar"
     @Published var serviceAddress: String = ""
     @Published var city: String = ""
@@ -16,22 +16,15 @@ class ScheduleViewModel: ObservableObject {
     @Published var addressState: String = ""
     @Published var zip: String = ""
     @Published var email: String = "babanb@mprglobalsolutions.com"
-    @Published var lossType: String = ""
+    @Published var insulationType: String = ""
     @Published var entryType: String = ""
+    @Published var areaToEstimate: String = ""
     @Published var homeOwnerName: String = ""
     @Published var homeOwnerContact: String = ""
     @Published var lockBoxCode: String = ""
-    @Published var livingSpace: String = ""
-    @Published var numberOfFurnace: String = ""
-    @Published var cleaningQuote: String = ""
-    @Published var serviceDate: Date = Date()
-    @Published var arrivalTimeSlot: String = ""
-    @Published var associatePO: String = "Yes"
-    @Published var emergency: Bool = false
-    @Published var anyDryerVent: String = "Yes"
-    @Published var PONumber: String = ""
+    @Published var completionDate: Date = Date()
+    @Published var isLadderGreater: String = "Yes"
     @Published var message: String = ""
-    @Published var reachToOwner: String = "Yes"
     @Published var statusViewModel: StatusViewModel?
     @Published var state: AppState
     
@@ -41,9 +34,9 @@ class ScheduleViewModel: ObservableObject {
         self.state = state
     }
   
-    func scheduleJob() {
+    func scheduleInsulationJob() {
         self.loading = true
-        WebService().scheduleJob(contractorName: contractorName, serviceAddress: serviceAddress, city: city, phoneNumber: phoneNumber, addressState: addressState, zip: zip, email: email, lossType: lossType, entryType: entryType, homeOwnerName: homeOwnerName, homeOwnerContact: homeOwnerContact, lockBoxCode: lockBoxCode, livingSpace: livingSpace, numberOfFurnace: numberOfFurnace, cleaningQuote: cleaningQuote, serviceDate: serviceDate,arrivalTimeSlot: arrivalTimeSlot, emergency: emergency, associatePO: associatePO, anyDryerVent: anyDryerVent, PONumber: PONumber,message: message, reachToOwner: reachToOwner)
+        WebService().insulationEstimate(contractorName: contractorName, serviceAddress: serviceAddress, city: city, phoneNumber: phoneNumber, addressState: addressState, zip: zip, email: email, insulationType: insulationType, areaToEstimate: areaToEstimate, entryType: entryType, homeOwnerName: homeOwnerName, homeOwnerContact: homeOwnerContact, lockBoxCode: lockBoxCode, message: message, completionDate: completionDate, isLadderGreater: isLadderGreater)
                 .receive(on: RunLoop.main)
                 .map(resultMapper)
                 .replaceError(with: StatusViewModel.errorStatus)
@@ -53,11 +46,11 @@ class ScheduleViewModel: ObservableObject {
 }
 
 // MARK: - Private helper function
-extension ScheduleViewModel {
+extension EstimateViewModel {
     private func resultMapper(with jobState: Int?) -> StatusViewModel {
         self.loading = false
         if jobState != nil {
-            return StatusViewModel.scheduleSuccessStatus
+            return StatusViewModel.insulationSuccessStatus
         } else {
             return StatusViewModel.errorStatus
         }

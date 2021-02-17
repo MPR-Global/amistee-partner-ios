@@ -1,13 +1,13 @@
 //
-//  RadioButtonField.swift
+//  CheckBoxField.swift
 //  amistee_partner
 //
 //  Created by Apple on 22/12/20.
 //
 import SwiftUI
 
-//MARK:- Radio Button Field
-struct RadioButtonField: View {
+//MARK:- CheckBox Field
+struct CheckBoxField: View {
     let id: String
     let label: String
     let size: CGFloat
@@ -42,8 +42,8 @@ struct RadioButtonField: View {
             self.callback(self.id)
         }) {
             HStack(alignment: .center) {
-                Image(systemName: self.isMarked ? "largecircle.fill.circle" : "circle")
-                    .clipShape(Circle())
+                Image(systemName: self.isMarked ? "checkmark.square" : "square")
+//                    .clipShape()
                     .foregroundColor(self.bgColor)
                 Text(label)
                     .font(Font.system(size: textSize))
